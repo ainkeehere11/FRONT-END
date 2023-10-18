@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Function scope using var</title>
+</head>
+<body>
+	<script>
+		function exampleFunction() {
+			var a = 5; // a hanya dapat diakses dalam fungsi ini
+			console.log("Nilai a:", a); // output : 5
+			
+		}
+		exampleFunction();
+		
+		// a tidak dapat diakses di luar fungsi
+		console.log("Nilai a diluar blok:", a); //error
+	</script>
+</body>
+</html>

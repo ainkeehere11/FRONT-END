@@ -1,0 +1,8 @@
+ada 4 cara dalam java script
+var; let; const; nothing dan default
+permograman in lebih felksibel 
+
+javascript dan python dikenal dengan dynamic. data type di assign secara otomatis.
+array ada bnyak tipe. 
+python paling umum digunakan.ai ml gpu.
+

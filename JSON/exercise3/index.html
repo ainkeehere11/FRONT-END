@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Java Script Objects</h2>
+<p>Display object properties:</p>
+<hr>
+<p id="exercise3"></p>
+
+<script>
+	const person = {name: "Inka Sumahap", age: 20, city: "Bitung City"};
+	
+	let txt = "";
+	for (let x in person) {
+		txt += person[x] + " ";
+	};
+	
+	document.getElementById("exercise3").innerHTML =txt;
+</script>
+</body>
+</html>
